@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:home_work/screen/login.dart';
+import 'package:home_work/screen/fake_text_field.dart';
+import 'package:home_work/util.dart';
 
 void main(){
   runApp(const MaterialApp(
@@ -20,9 +21,9 @@ class MyApp extends StatelessWidget {
           padding: const EdgeInsets.all(20),
           height: 400,
           margin: const EdgeInsets.all(20),
-          decoration: const BoxDecoration(
-            color: Colors.white,
-            borderRadius: BorderRadius.all(Radius.circular(20))
+          decoration:  BoxDecoration(
+            color: Styles.bgColor,
+            borderRadius: const BorderRadius.all(Radius.circular(20))
           ),
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
