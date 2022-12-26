@@ -19,7 +19,8 @@ class LoginScreen extends StatelessWidget {
               color: Colors.black
           )
       ),
-      child: Text(value,style: TextStyle(color: checked==true?Colors.white:Colors.grey[500]),),
+      child: Text(value,style: TextStyle(color: checked==true?Colors.white:Colors.grey[500],
+      fontSize: checked==true?20:16),),
     );
   }
 }
