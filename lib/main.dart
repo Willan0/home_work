@@ -34,16 +34,7 @@ class MyApp extends StatelessWidget {
               const SizedBox(height: 20,),
               const LoginScreen(value: 'Password'),
               const SizedBox(height: 25,),
-              Container(
-                width: double.infinity,
-                height: 60,
-                alignment: Alignment.center,
-                decoration: const BoxDecoration(
-                  color: Colors.lightBlueAccent,
-                  borderRadius: BorderRadius.all(Radius.circular(10))
-                ),
-                child: const Text('Log in',style: TextStyle(color: Colors.white,fontWeight: FontWeight.w700,fontSize: 20),),
-              ),
+              const LoginScreen(value: "Login",checked: true,),
               const SizedBox(height: 20,),
               SizedBox(width:double.infinity,child: Text('or,signup',style: TextStyle(color: Colors.grey[600]),textAlign: TextAlign.center,))
             ],
